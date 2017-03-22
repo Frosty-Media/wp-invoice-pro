@@ -6,8 +6,8 @@ A license can still be purchased by visiting [the plugin page](https://frosty.me
 
 Support & Maintenance
 -------
-I, Austin, or Frosty Media will not be offering support (either free or paid)
-for this plugin anymore.
+I, [Austin](http://austin.passy.co), or [Frosty Media](http://frosty.media) will not be offering
+support (either free or paid) for this plugin anymore.
 
 Furthermore, I will not be doing any development work whatsoever.
 
