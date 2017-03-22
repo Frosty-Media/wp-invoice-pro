@@ -1,0 +1,55 @@
+== Changelog ==
+
+= Version 2.0-beta (6/23/13) =
+
+
+
+= Version 1.1.5 (3/6/13) =
+
+Added 'version' to the add_settings_section() function.
+Updated: Extendd Settings to 1.0.11.
+
+= Version 1.1.4 (3/1/13) =
+
+Fixed: Typo in update license.
+Updated: Extendd Settings to 1.0.10.
+
+== Version 1.1.3 (2/21/13) ==
+
+Updated plugin link.
+
+== Version 1.1.2 (2/13/13) ==
+
+Updated mail error.
+Fixed nl2br on all HTML lines.
+
+== Version 1.1.1 ==
+
+Missing argument on `get_post()` classes/post-type.php:502
+Updated CSS to newest normalize.
+Minor color changes.
+Updated mail.php error when mailing to "both"
+
+== Version 1.1.0 ==
+
+Update the wpalchemy class to be compatible with WordPress 3.5.
+Addded jQuery sortable to item(s) breakdown(s).
+Better HTML email handeling
+Updated: prefixfree.min.js
+Updated: $prefix of post_meta_data().
+		- Before $meta was not prefixed which could cause issues with other fields of the same value.
+		- New prefix is `_wp_invoice_pro_` * |client|detail|total|tax|subtotal|user|permalink|number|type|invoice_tax|email_fields|breakdown_fields|client_fields|
+		- Resaving post after update should re-encode meta with new meta_key's.
+Fixed: Removed empty breakdown fields that would cause empty array()'s in the database.
+Fixed: Removed MetaBox open output in invoice template.
+Fixed: Missing functions.js file.
+Fixed: flush rewrite rules on activation/deactivation to correct custom post type permalinks.
+Updated: Include missing shortcodes.
+		- [wp-invoice-client]
+		- [wp-invoice-type]
+		- [wp-invoice-title]
+		- [wp-invoice-name]
+		- [wp-invoice-company]
+Fixed: Require login via settings and override via $post option.
+
+TODO: Custom Roles: Customer/Client
